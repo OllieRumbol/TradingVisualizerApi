@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingVisualizerApi", "TradingVisualizerApi.csproj", "{CE1A196E-269D-475A-AA33-0FEC653C567A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingVisualizerService", "..\TradingVisualizerService\TradingVisualizerService.csproj", "{FFF2445C-3BA6-4FD4-B5D9-CC637DF0C870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingVisualizerRepository", "..\TradingVisualizerRepository\TradingVisualizerRepository.csproj", "{B401DF97-58EA-4314-9EFB-A6AFAC081B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingVisualizerModels", "..\TradingVisualizerModels\TradingVisualizerModels.csproj", "{BA9091D9-1D31-4C23-89A3-47660147951D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingVisualizerServiceTests", "..\TradingVisualizerServiceTests\TradingVisualizerServiceTests.csproj", "{54F41CA5-8575-4990-B85B-F89FAC17E8D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingVisualizerRepositoryTests", "..\TradingVisualizerRepositoryTests\TradingVisualizerRepositoryTests.csproj", "{CC84FC75-8A93-4C3C-8945-3213C00EC3CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE1A196E-269D-475A-AA33-0FEC653C567A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1A196E-269D-475A-AA33-0FEC653C567A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1A196E-269D-475A-AA33-0FEC653C567A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1A196E-269D-475A-AA33-0FEC653C567A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF2445C-3BA6-4FD4-B5D9-CC637DF0C870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF2445C-3BA6-4FD4-B5D9-CC637DF0C870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF2445C-3BA6-4FD4-B5D9-CC637DF0C870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF2445C-3BA6-4FD4-B5D9-CC637DF0C870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B401DF97-58EA-4314-9EFB-A6AFAC081B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B401DF97-58EA-4314-9EFB-A6AFAC081B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B401DF97-58EA-4314-9EFB-A6AFAC081B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B401DF97-58EA-4314-9EFB-A6AFAC081B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9091D9-1D31-4C23-89A3-47660147951D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9091D9-1D31-4C23-89A3-47660147951D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9091D9-1D31-4C23-89A3-47660147951D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9091D9-1D31-4C23-89A3-47660147951D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F41CA5-8575-4990-B85B-F89FAC17E8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F41CA5-8575-4990-B85B-F89FAC17E8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F41CA5-8575-4990-B85B-F89FAC17E8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F41CA5-8575-4990-B85B-F89FAC17E8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC84FC75-8A93-4C3C-8945-3213C00EC3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC84FC75-8A93-4C3C-8945-3213C00EC3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC84FC75-8A93-4C3C-8945-3213C00EC3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC84FC75-8A93-4C3C-8945-3213C00EC3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BE95D30-2804-4B17-80DB-9AF1838B918E}
+	EndGlobalSection
+EndGlobal
