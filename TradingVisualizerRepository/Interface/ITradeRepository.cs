@@ -1,4 +1,4 @@
-﻿using TradingVisualizerModels;
+﻿using TradingVisualizerModels.Database;
 
 namespace TradingVisualizerRepository.Interface;
 

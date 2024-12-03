@@ -1,5 +1,5 @@
 ﻿using MongoDB.Driver;
-using TradingVisualizerModels;
+using TradingVisualizerModels.Database;
 using TradingVisualizerRepository.Instance;
 
 namespace TradingVisualizerRepositoryTests
@@ -27,7 +27,7 @@ namespace TradingVisualizerRepositoryTests
 
             // Assert
             Assert.IsNotNull(result);
-            Assert.AreEqual(3, result.Count());
+            Assert.AreEqual(8, result.Count());
         }
     }
 }

@@ -5,14 +5,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TradingVisualizerModels;
+using TradingVisualizerModels.Database;
 using TradingVisualizerRepository.Instance;
 using TradingVisualizerRepository.Interface;
 
 namespace TradingVisualizerRepositoryTests;
 
 [TestClass]
-public class ShareRespositoryTests
+public class ShareRepositoryTests
 {
     private Mock<IMongoDbProvider> _mongoDbProvider;
     private Mock<IMemoryCache> _memoryCache;

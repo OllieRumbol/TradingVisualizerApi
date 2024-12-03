@@ -18,12 +18,19 @@ public class MongoDbProvider : IMongoDbProvider
 
     public async Task<List<I>> GetCollectionFromDb<I>(string collectionName)
     {
-        var collection = await _mongoClient
-            .GetDatabase(DatabaseName)
-            .GetCollection<I>(collectionName)
-            .AsQueryable()
-            .ToListAsync();
+        try
+        {
+            var collection = await _mongoClient
+                .GetDatabase(DatabaseName)
+                .GetCollection<I>(collectionName)
+                .AsQueryable()
+                .ToListAsync();
 
-        return collection;
+            return collection;
+        }
+        catch(Exception ex)
+        {
+            throw new Exception();
+        }
     }
 }

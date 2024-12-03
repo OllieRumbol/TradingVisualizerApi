@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
-using TradingVisualizerModels;
+using TradingVisualizerModels.Database;
 using TradingVisualizerRepository.Interface;
 
 namespace TradingVisualizerRepository.Instance;
@@ -29,7 +29,7 @@ public class ShareRepository : IShareRespository
 
         if (shares != null)
         {
-            _memoryCache.Set(SharesCacheKey, shares);
+            _memoryCache.Set(SharesCacheKey, shares, CacheTimeout);
         }
 
         return shares;

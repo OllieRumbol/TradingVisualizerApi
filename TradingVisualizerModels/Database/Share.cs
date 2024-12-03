@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson;
 
-namespace TradingVisualizerModels;
+namespace TradingVisualizerModels.Database;
 
 public class Share
 {

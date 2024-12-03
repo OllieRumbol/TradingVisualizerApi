@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
-using TradingVisualizerModels;
+using TradingVisualizerModels.Database;
 using TradingVisualizerRepository.Interface;
 
 namespace TradingVisualizerRepository.Instance;

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
 using Moq;
-using TradingVisualizerModels;
+using TradingVisualizerModels.Database;
 using TradingVisualizerRepository.Instance;
 using TradingVisualizerRepository.Interface;
 
