@@ -16,9 +16,9 @@ public class GraphsController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<List<AllGraphsResponse>>> GetAllTrades()
+    public async Task<ActionResult<List<AllGraphsResponse>>> GetAllGraphs()
     {
-        var graphs = _graphService.GetAllGraphs();
+        var graphs = await _graphService.GetAllGraphs();
 
         return Ok(graphs);
     }
